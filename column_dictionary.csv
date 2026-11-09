@@ -1,0 +1,32 @@
+variable,type,group
+hh_id,character,id / design
+year,character,id / design
+state,factor,id / design
+district,character,id / design
+w,numeric,id / design
+mpce,numeric,target
+bottom20,factor,target
+sector,factor,feature
+hh_size,numeric,feature
+any_econ_activity,factor,feature
+nco1,factor,feature
+nic2,factor,feature
+main_income,factor,feature
+wage_sector,factor,feature
+casual_sector,factor,feature
+hh_type,factor,feature
+land_owned,factor,feature
+land_type,factor,feature
+land_acres_log1p,numeric,feature
+has_dwelling,factor,feature
+dwelling_type,factor,feature
+cooking_fuel,factor,feature
+lighting,factor,feature
+rent_rate_avail,factor,feature
+social_group,factor,audit only
+religion,factor,audit only
+ration_card,factor,excluded (leakage)
+pmgky,factor,excluded (leakage)
+n_members,integer,member feature
+mean_age,numeric,member feature
+share_female,numeric,member feature

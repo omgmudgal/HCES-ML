@@ -1,0 +1,5 @@
+.metric,.estimator,mean,n,std_err,.config,model,penalty,mixture,trees,min_n,tree_depth,learn_rate
+pr_auc,binary,0.3880325138962989,5,0.051826193906538025,pre0_mod0_post0,logit,NA,NA,NA,NA,NA,NA
+roc_auc,binary,0.6304649292565279,5,0.03288826099929098,pre0_mod0_post0,logit,NA,NA,NA,NA,NA,NA
+pr_auc,binary,0.381673334913812,5,0.04616087331781695,pre0_mod15_post0,elastic_net,0.0019306977288832496,1,NA,NA,NA,NA
+pr_auc,binary,0.4041974678187932,5,0.046225938495893786,pre0_mod11_post0,xgboost,NA,NA,457,122,3,0.1
